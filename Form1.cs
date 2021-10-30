@@ -209,7 +209,7 @@ namespace excel
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
-        {
+        { 
             DialogResult result = MessageBox.Show("Do you want to save table?", "Save table", MessageBoxButtons.YesNoCancel);
             if (result == DialogResult.Yes)
             {
